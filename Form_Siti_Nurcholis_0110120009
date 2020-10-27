@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <form methode="POST" action="form.html">
+        <fieldset id="FORM PENDAFTARAN">
+            <hr></hr>
+            <h3><legend>FORMULIR PENDAFTARAN SISWA</legend></h3>
+            <hr></hr>
+            <h4><legend>Identitas Siswa</legend></h4>
+            <ol>
+            <br>
+                <li>
+                    <label for="Nama">Nama Lengkap</label>
+                    <input type="text" Nama="nama" id="nama">
+                </li>
+            <br>
+                <li>
+                    <label for="Nama Panggilan">Nama Panggilan</label>
+                    <input type="text" Nama="nama" id="nama">
+                </li>
+            <br>
+                <li>
+                    <label for="Tempat Tanggal Lahir">Tempat Tanggal Lahir</label>
+                    <input type="date" Nama="TTL" id="TTL">
+                </li>
+            <br>
+                <li>
+                    <label for="Jenis Kelamin">Jenis Kelamin</label>
+                    <br>
+                    <input type="radio" gender="Jenis Kelamin" value="L" /> Laki-laki
+                    <input type="radio" gender="Jenis Kelamin" value="P" /> Perempuan
+                </li>
+            <br>
+                <li>
+                    <label for="Alamat Lengkap">Alamat Lengkap</label>
+                    <input type="text" nama="Alamat Lengkap" id="Alamat Lengkap">
+                </li>
+            <br>
+                <li>
+                    <label for="No. HP">No. Hp</label>
+                    <input type="number" nama="No. HP" id="No. HP">
+                </li>
+            <br>
+                <li>
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" nama="E-mail" id="E-mail">
+                </li>
+            <br>
+                <li>
+                    <label for="Tinggi Badan">Tinggi Badan</label>
+                    <input type="number" nama="Tinggi Badan" id="Tinggi Badan">
+                </li>
+            <br>
+                <li>
+                    <label for="Berat Badan">Berat Badan</label>
+                    <input type="number" nama="Berat Badan" id="Berat Badan">
+                </li>
+            <br>
+                <li>
+                    <label for="Golongan Darah">Golongan Darah</label>
+                    <input type="text" nama="Gol. Darah" id="Gol. Darah">
+                </li>
+            <br>
+                <li>
+                    <label for="Anak Ke-">Anak Ke-</label>
+                    <input type="number" nama="Anak ke-" id="Anak Ke-">
+                </li>
+            <br>
+                <li>
+                    <label for="Hobby">Hobby</label>
+                    <input type="text" Nama="Hobby" id="Hobby">
+                </li>
+            </ol>
+            <hr></hr>
+            <h4><legend>Identitas Orang Tua</legend></h4>
+            <ol>
+            <br>
+                <li>
+                    <label for="Nama Ayah">Nama Ayah</label>
+                    <input type="text" nama="nama ayah" id="nama ayah">
+                </li>
+            <br>
+                <li>
+                    <label for="Usia Ayah">Usia</label>
+                    <input type="number" nama="usia" id="usia">
+                </li>
+            <br>
+                <li>
+                    <label for="Pekerjaan">Pekerjaan</label>
+                    <br>
+                    <input type="radio" pekerjaan="Pekerjaan" value="Buruh" /> Buruh
+                    <input type="radio" pekerjaan="Pekerjaan" value="Wiraswasta" /> Wiraswasta
+                    <input type="radio" pekerjaan="Pekerjaan" value="Pegawai Negeri Sipil" /> Pegawai Negeri Sipil
+                    <input type="radio" pekerjaan="Pekerjaan" value="Pegawai Swasta" /> Pegawai Swasta
+                    <input type="radio" pekerjaan="Pekerjaan" value="Lain-Lain" /> Lain-Lain
+                    <input type="text" pekerjaan="Pekerjaan" id="pekerjaan">
+                </li>
+            <br>
+                <li>
+                    <label for="Alamat Lengkap">Alamat Lengkap</label>
+                    <input type="text" nama="Alamat Lengkap" id="Alamat Lengkap">
+                </li>
+            <br>
+                <li>
+                    <label for="Pendidikan Terakhir">Pendidikan Terakhir</label>
+                    <select pyd="Pendidikan">
+                        <option value="">-Silahkan Pilih-</option>
+                        <option value="SD">SD</option>
+                        <option value="SLTP">SLTP</option>
+                        <option value="SLTA">SLTA</option>
+                        <option value="D3">D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                        <option value="S3">S3</option>
+                    </select>
+                </li>
+            <br>
+                <li>
+                    <label for="No. HP">No. HP</label>
+                    <input type="number" nama="No. Hp" id="No. Hp">
+                </li>
+            <br>
+
+            <br>
+                <li>
+                    <label for="Nama Ibu">Nama Ibu</label>
+                    <input type="text" nama="Nama Ibu" id="Nama Ibu">
+                </li>
+            <br>
+                <li>
+                    <label for="Usia Ibu">Usia</label>
+                    <input type="number" nama="usia" id="usia">
+                </li>
+            <br>
+                <li>
+                    <label for="Pekerjaan">Pekerjaan</label>
+                    <br>
+                    <input type="radio" pekerjaan="Pekerjaan" value="Buruh" /> Buruh
+                    <input type="radio" pekerjaan="Pekerjaan" value="Wiraswasta" /> Wiraswasta
+                    <input type="radio" pekerjaan="Pekerjaan" value="Pegawai Negeri Sipil" /> Pegawai Negeri Sipil
+                    <input type="radio" pekerjaan="Pekerjaan" value="Pegawai Swasta" /> Pegawai Swasta
+                    <input type="radio" pekerjaan="Pekerjaan" value="Ibu Rumah Tangga" /> Ibu Rumah Tangga
+                    <input type="radio" pekerjaan="Pekerjaan" value="Lain-Lain" /> Lain-Lain
+                    <input type="text" pekerjaan="Pekerjaan" id="pekerjaan">
+                </li>
+            <br>
+                <li>
+                    <label for="Alamat Lengkap">Alamat Lengkap</label>
+                    <input type="text" nama="Alamat Lengkap" id="Alamat Lengkap">
+                </li>
+            <br>
+                <li>
+                    <label for="Pendidikan Terakhir">Pendidikan Terakhir</label>
+                    <select pyd="Pendidikan">
+                        <option value="">-Silahkan Pilih-</option>
+                        <option value="SD">SD</option>
+                        <option value="SLTP">SLTP</option>
+                        <option value="SLTA">SLTA</option>
+                        <option value="D3">D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                        <option value="S3">S3</option>
+                    </select>
+                </li>
+            <br>
+                <li>
+                    <label for="No. HP">No. HP</label>
+                    <input type="number" nama="No. Hp" id="No. Hp">
+                </li>
+            <br><br>
+                <input type="submit" value="submit" />
+            <br>
+            </ol>
+        </fieldset>
+    </form>
+</body>
+</html>
